@@ -26,6 +26,20 @@ fn void getZeile(int[] werte)
 	io::print("|\n");
 }
 
+fn int? readNextInt()
+{
+    String? nextIntString = io::treadline();
+	int? nextInt = -1;
+
+    if (catch excuse = nextIntString) {
+        return excuse?;
+    } else {
+		nextInt = String.to_int(nextIntString);
+	}
+    return nextInt;
+}
+
+
 fn int main(String[] args)
 {
 
@@ -38,6 +52,13 @@ fn int main(String[] args)
 		getZeile(&werte);
 		getBalken();
 	}
+
+	io::print("Bitte geben Sie eine Zahl ein: ");
+	int? naechsterWert = readNextInt();
+	io::print("Der eingegebene Wert ist: ");
+	io::print(naechsterWert!!);
+	io::print("\n");
+	
 
 	return 0;
 
