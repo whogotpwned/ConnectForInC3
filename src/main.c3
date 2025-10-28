@@ -56,9 +56,9 @@ fn void getBanner()
 
 fn bool hasFreeSpace(int[7][6] matrix)
 {
-	for (int i = 0; i < 6; i++)
+	for (int i = 0; i < 7; i++)
 	{
-		for (int j = 0; j < 7; j++)
+		for (int j = 0; j < 6; j++)
 		{
 			if (matrix[j][i] == 0)
 			{
@@ -84,6 +84,26 @@ fn int getNextValidFreeRow(int[7][6] matrix, int column)
 	}
 	return -1;
 
+}
+
+fn void printFeedbackTargetPosition(int zeile, int spalte)
+{
+	io::print("Eingegebene Spalte: ");
+	io::print(spalte + 1);
+	io::print("\n");
+	io::print("Zeile: ");
+	io::print(zeile + 1);
+	io::print("\n");
+}
+
+fn int getFeedbackNextPlayer(int round) 
+{
+	int nextPlayer = (round % 2) + 1;
+	io::print("Spieler ");
+	io::print(nextPlayer);
+	io::print(" ist am Zug.\n");
+
+	return nextPlayer;
 }
 
 
@@ -115,13 +135,7 @@ fn int main(String[] args)
 	while (hasFreeSpace(matrix))
 	{
 		
-
-		int nextPlayer = (round % 2) + 1;
-		round += 1;
-		io::print("Spieler ");
-		io::print(nextPlayer);
-		io::print(" ist am Zug.\n");
-		
+		int nextPlayer = getFeedbackNextPlayer(round);
 
 		io::print("Bitte geben Sie eine Zahl ein: ");
 		int? naechsterWert = readNextInt();
@@ -135,18 +149,8 @@ fn int main(String[] args)
 		int spalte = naechsterWert!! - 1;
 		int zeile = getNextValidFreeRow(matrix, spalte);
 
-		io::print("Eingegebene Spalte: ");
-		io::print(spalte + 1);
-		io::print("\n");
-		io::print("Zeile: ");
-		io::print(zeile + 1);
-		io::print("\n");
 
-		if (zeile == 0)
-		{
-			io::print("Diese Spalte ist voll. Bitte wählen Sie eine andere Spalte.\n");
-			continue;
-		}
+		printFeedbackTargetPosition(zeile, spalte);
 		
 		matrix[zeile][spalte] = nextPlayer;
 
@@ -157,6 +161,8 @@ fn int main(String[] args)
 			getZeile(&matrix[i]);
 		}
 		getBalken();
+
+		round += 1;
 
 	}
 
