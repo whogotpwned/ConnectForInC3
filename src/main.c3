@@ -87,6 +87,7 @@ fn int getNextValidFreeRow(int[7][6] matrix, int column)
 }
 
 
+
 fn int main(String[] args)
 {
 
@@ -109,8 +110,19 @@ fn int main(String[] args)
 
 	// Ab hier geht die eigentliche Logik los
 
+	int round = 0;
+
 	while (hasFreeSpace(matrix))
 	{
+		
+
+		int nextPlayer = (round % 2) + 1;
+		round += 1;
+		io::print("Spieler ");
+		io::print(nextPlayer);
+		io::print(" ist am Zug.\n");
+		
+
 		io::print("Bitte geben Sie eine Zahl ein: ");
 		int? naechsterWert = readNextInt();
 
@@ -136,7 +148,7 @@ fn int main(String[] args)
 			continue;
 		}
 		
-		matrix[zeile][spalte] = 1;
+		matrix[zeile][spalte] = nextPlayer;
 
 		io::print("\n");
 		for (int i = 0; i < 6; i++)
