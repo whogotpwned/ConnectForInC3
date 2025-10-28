@@ -3,7 +3,7 @@ triple:          'arm64-apple-darwin'
 binary-path:     './myc3project'
 relocations:
   - { offset: 0x1E, size: 0x8, addend: 0x0, symName: '_std_collections_list$std.os.backtrace.Backtrace$.List.init', symObjAddr: 0x0, symBinAddr: 0x100000928, symSize: 0xEC }
-  - { offset: 0x38, size: 0x8, addend: 0x0, symName: '_std_collections_list$std.os.backtrace.Backtrace$.dummy.27428', symObjAddr: 0x4A64, symBinAddr: 0x100075308, symSize: 0x0 }
+  - { offset: 0x38, size: 0x8, addend: 0x0, symName: '_std_collections_list$std.os.backtrace.Backtrace$.dummy.27439', symObjAddr: 0x4A64, symBinAddr: 0x100075308, symSize: 0x0 }
   - { offset: 0x4C, size: 0x8, addend: 0x0, symName: '_std_collections_list$std.os.backtrace.Backtrace$.List.init', symObjAddr: 0x0, symBinAddr: 0x100000928, symSize: 0xEC }
   - { offset: 0x94, size: 0x8, addend: 0x0, symName: '_std_collections_list$std.os.backtrace.Backtrace$.List.to_format', symObjAddr: 0xEC, symBinAddr: 0x100000A14, symSize: 0x8EC }
   - { offset: 0x2B1, size: 0x8, addend: 0x0, symName: '_std_collections_list$std.os.backtrace.Backtrace$.List.push', symObjAddr: 0x9D8, symBinAddr: 0x100001300, symSize: 0x3F8 }
@@ -17,14 +17,14 @@ relocations:
   - { offset: 0x6D2, size: 0x8, addend: 0x0, symName: _std.os.env.executable_path, symObjAddr: 0x0, symBinAddr: 0x100002CAC, symSize: 0x5C }
   - { offset: 0x6DF, size: 0x8, addend: 0x0, symName: _std.os.env.executable_path, symObjAddr: 0x0, symBinAddr: 0x100002CAC, symSize: 0x5C }
   - { offset: 0x72A, size: 0x8, addend: 0x0, symName: _std.os.process.SubProcess.read_stdout, symObjAddr: 0x0, symBinAddr: 0x100002D08, symSize: 0x128 }
-  - { offset: 0x745, size: 0x8, addend: 0x0, symName: _std.os.process.EMPTY_ENVIRONMENT, symObjAddr: 0x3740, symBinAddr: 0x100067088, symSize: 0x0 }
+  - { offset: 0x745, size: 0x8, addend: 0x0, symName: _std.os.process.EMPTY_ENVIRONMENT, symObjAddr: 0x3740, symBinAddr: 0x100069528, symSize: 0x0 }
   - { offset: 0x785, size: 0x8, addend: 0x0, symName: _std.os.process.SubProcess.read_stdout, symObjAddr: 0x0, symBinAddr: 0x100002D08, symSize: 0x128 }
   - { offset: 0x7F6, size: 0x8, addend: 0x0, symName: _std.os.process.SubProcess.join, symObjAddr: 0x128, symBinAddr: 0x100002E30, symSize: 0x1A8 }
   - { offset: 0x872, size: 0x8, addend: 0x0, symName: _std.os.process.execute_stdout_to_buffer, symObjAddr: 0x2D0, symBinAddr: 0x100002FD8, symSize: 0x574 }
-  - { offset: 0x926, size: 0x8, addend: 0x0, symName: _std.os.process.copy_command_line.16505, symObjAddr: 0x844, symBinAddr: 0x10000354C, symSize: 0x978 }
-  - { offset: 0x9FD, size: 0x8, addend: 0x0, symName: _std.os.process.copy_env.16512, symObjAddr: 0x11BC, symBinAddr: 0x100003EC4, symSize: 0x930 }
+  - { offset: 0x926, size: 0x8, addend: 0x0, symName: _std.os.process.copy_command_line.16512, symObjAddr: 0x844, symBinAddr: 0x10000354C, symSize: 0x978 }
+  - { offset: 0x9FD, size: 0x8, addend: 0x0, symName: _std.os.process.copy_env.16519, symObjAddr: 0x11BC, symBinAddr: 0x100003EC4, symSize: 0x930 }
   - { offset: 0xCBA, size: 0x8, addend: 0x0, symName: _std.os.process.create, symObjAddr: 0x1AEC, symBinAddr: 0x1000047F4, symSize: 0x19F4 }
-  - { offset: 0xEF8, size: 0x8, addend: 0x0, symName: _std.os.process.read_from_file_posix.16563, symObjAddr: 0x34E0, symBinAddr: 0x1000061E8, symSize: 0x78 }
+  - { offset: 0xEF8, size: 0x8, addend: 0x0, symName: _std.os.process.read_from_file_posix.16570, symObjAddr: 0x34E0, symBinAddr: 0x1000061E8, symSize: 0x78 }
   - { offset: 0x1071, size: 0x8, addend: 0x0, symName: _std.os.backtrace.Backtrace.has_file, symObjAddr: 0x0, symBinAddr: 0x100006260, symSize: 0xA8 }
   - { offset: 0x108B, size: 0x8, addend: 0x0, symName: _std.os.backtrace.BACKTRACE_UNKNOWN, symObjAddr: 0x1350, symBinAddr: 0x1000706A8, symSize: 0x0 }
   - { offset: 0x118D, size: 0x8, addend: 0x0, symName: _std.os.backtrace.Backtrace.has_file, symObjAddr: 0x0, symBinAddr: 0x100006260, symSize: 0xA8 }
@@ -36,85 +36,85 @@ relocations:
   - { offset: 0x1414, size: 0x8, addend: 0x0, symName: _executable_path.path, symObjAddr: 0x4748, symBinAddr: 0x10007530C, symSize: 0x0 }
   - { offset: 0x1449, size: 0x8, addend: 0x0, symName: _executable_path.len, symObjAddr: 0x5748, symBinAddr: 0x10007630C, symSize: 0x0 }
   - { offset: 0x145D, size: 0x8, addend: 0x0, symName: _std.os.darwin.executable_path, symObjAddr: 0x0, symBinAddr: 0x100007204, symSize: 0x6C0 }
-  - { offset: 0x149F, size: 0x8, addend: 0x0, symName: _std.os.darwin.load_address.16084, symObjAddr: 0x6C0, symBinAddr: 0x1000078C4, symSize: 0x200 }
-  - { offset: 0x1643, size: 0x8, addend: 0x0, symName: _std.os.darwin.backtrace_load_element.16090, symObjAddr: 0x8C0, symBinAddr: 0x100007AC4, symSize: 0x1830 }
+  - { offset: 0x149F, size: 0x8, addend: 0x0, symName: _std.os.darwin.load_address.16091, symObjAddr: 0x6C0, symBinAddr: 0x1000078C4, symSize: 0x200 }
+  - { offset: 0x1643, size: 0x8, addend: 0x0, symName: _std.os.darwin.backtrace_load_element.16097, symObjAddr: 0x8C0, symBinAddr: 0x100007AC4, symSize: 0x1830 }
   - { offset: 0x173A, size: 0x8, addend: 0x0, symName: _std.os.darwin.symbolize_backtrace, symObjAddr: 0x20F0, symBinAddr: 0x1000092F4, symSize: 0x62C }
   - { offset: 0x1A77, size: 0x8, addend: 0x0, symName: _std.os.posix.backtrace, symObjAddr: 0x0, symBinAddr: 0x100009920, symSize: 0x8ECC }
-  - { offset: 0x1A98, size: 0x8, addend: 0x0, symName: _std.os.posix.backtrace_jmpbuf.15831, symObjAddr: 0x9F40, symBinAddr: 0x100076310, symSize: 0x0 }
+  - { offset: 0x1A98, size: 0x8, addend: 0x0, symName: _std.os.posix.backtrace_jmpbuf.15838, symObjAddr: 0x9F40, symBinAddr: 0x100076310, symSize: 0x0 }
   - { offset: 0x1AE4, size: 0x8, addend: 0x0, symName: _std.os.posix.backtrace, symObjAddr: 0x0, symBinAddr: 0x100009920, symSize: 0x8ECC }
   - { offset: 0x1BCF, size: 0x8, addend: 0x0, symName: '_std::os::posix.backtrace$lambda1', symObjAddr: 0x8ECC, symBinAddr: 0x1000127EC, symSize: 0x2C }
   - { offset: 0x1C91, size: 0x8, addend: 0x0, symName: _roundeven, symObjAddr: 0x0, symBinAddr: 0x100012818, symSize: 0x49C }
-  - { offset: 0x1CAC, size: 0x8, addend: 0x0, symName: ___mulddi3.LOWER_MASK, symObjAddr: 0x9F18, symBinAddr: 0x100067DC8, symSize: 0x0 }
-  - { offset: 0x1CCD, size: 0x8, addend: 0x0, symName: ___floattisf.MANT_DIG, symObjAddr: 0x9F20, symBinAddr: 0x100067DD0, symSize: 0x0 }
-  - { offset: 0x1CEE, size: 0x8, addend: 0x0, symName: ___floattisf.EXP_BIAS, symObjAddr: 0x9F24, symBinAddr: 0x100067DD4, symSize: 0x0 }
-  - { offset: 0x1D08, size: 0x8, addend: 0x0, symName: ___floattisf.SIGNIFICANT_BITS, symObjAddr: 0x9F28, symBinAddr: 0x100067DD8, symSize: 0x0 }
-  - { offset: 0x1D22, size: 0x8, addend: 0x0, symName: ___floattisf.MANTISSA_MASK, symObjAddr: 0x9F2C, symBinAddr: 0x100067DDC, symSize: 0x0 }
-  - { offset: 0x1D43, size: 0x8, addend: 0x0, symName: ___floattisf.SIGN_BIT, symObjAddr: 0x9F30, symBinAddr: 0x100067DE0, symSize: 0x0 }
-  - { offset: 0x1D5D, size: 0x8, addend: 0x0, symName: ___floattidf.MANT_DIG, symObjAddr: 0x9F40, symBinAddr: 0x100067DF0, symSize: 0x0 }
-  - { offset: 0x1D77, size: 0x8, addend: 0x0, symName: ___floattidf.SIGNIFICANT_BITS, symObjAddr: 0x9F44, symBinAddr: 0x100067DF4, symSize: 0x0 }
-  - { offset: 0x1D91, size: 0x8, addend: 0x0, symName: ___floattidf.EXP_BIAS, symObjAddr: 0x9F48, symBinAddr: 0x100067DF8, symSize: 0x0 }
-  - { offset: 0x1DAC, size: 0x8, addend: 0x0, symName: ___floattidf.MANTISSA_MASK, symObjAddr: 0x9F50, symBinAddr: 0x100067E00, symSize: 0x0 }
-  - { offset: 0x1DC7, size: 0x8, addend: 0x0, symName: ___floattidf.SIGN_BIT, symObjAddr: 0x9F58, symBinAddr: 0x100067E08, symSize: 0x0 }
-  - { offset: 0x1DE1, size: 0x8, addend: 0x0, symName: ___floatuntisf.MANT_DIG, symObjAddr: 0x9F6C, symBinAddr: 0x100067E1C, symSize: 0x0 }
-  - { offset: 0x1DFB, size: 0x8, addend: 0x0, symName: ___floatuntisf.EXP_BIAS, symObjAddr: 0x9F70, symBinAddr: 0x100067E20, symSize: 0x0 }
-  - { offset: 0x1E15, size: 0x8, addend: 0x0, symName: ___floatuntisf.SIGNIFICANT_BITS, symObjAddr: 0x9F74, symBinAddr: 0x100067E24, symSize: 0x0 }
-  - { offset: 0x1E2F, size: 0x8, addend: 0x0, symName: ___floatuntisf.MANTISSA_MASK, symObjAddr: 0x9F78, symBinAddr: 0x100067E28, symSize: 0x0 }
-  - { offset: 0x1E49, size: 0x8, addend: 0x0, symName: ___floatuntidf.MANT_DIG, symObjAddr: 0x9F8C, symBinAddr: 0x100067E3C, symSize: 0x0 }
-  - { offset: 0x1E63, size: 0x8, addend: 0x0, symName: ___floatuntidf.SIGNIFICANT_BITS, symObjAddr: 0x9F90, symBinAddr: 0x100067E40, symSize: 0x0 }
-  - { offset: 0x1E7D, size: 0x8, addend: 0x0, symName: ___floatuntidf.EXP_BIAS, symObjAddr: 0x9F94, symBinAddr: 0x100067E44, symSize: 0x0 }
-  - { offset: 0x1E98, size: 0x8, addend: 0x0, symName: ___floatuntidf.MANTISSA_MASK, symObjAddr: 0x9F98, symBinAddr: 0x100067E48, symSize: 0x0 }
-  - { offset: 0x1EB2, size: 0x8, addend: 0x0, symName: ___fixunsdfti.EXPONENT_BITS, symObjAddr: 0x9FB0, symBinAddr: 0x100067E60, symSize: 0x0 }
-  - { offset: 0x1ECC, size: 0x8, addend: 0x0, symName: ___fixunsdfti.SIGNIFICANT_BITS, symObjAddr: 0x9FB4, symBinAddr: 0x100067E64, symSize: 0x0 }
-  - { offset: 0x1EE7, size: 0x8, addend: 0x0, symName: ___fixunsdfti.MAX_EXPONENT, symObjAddr: 0x9FB8, symBinAddr: 0x100067E68, symSize: 0x0 }
-  - { offset: 0x1F02, size: 0x8, addend: 0x0, symName: ___fixunsdfti.EXPONENT_BIAS, symObjAddr: 0x9FC0, symBinAddr: 0x100067E70, symSize: 0x0 }
-  - { offset: 0x1F1D, size: 0x8, addend: 0x0, symName: ___fixunsdfti.ONE_REP, symObjAddr: 0x9FC8, symBinAddr: 0x100067E78, symSize: 0x0 }
-  - { offset: 0x1F38, size: 0x8, addend: 0x0, symName: ___fixunsdfti.SIGN_BIT, symObjAddr: 0x9FD0, symBinAddr: 0x100067E80, symSize: 0x0 }
-  - { offset: 0x1F53, size: 0x8, addend: 0x0, symName: ___fixunsdfti.ABS_MASK, symObjAddr: 0x9FD8, symBinAddr: 0x100067E88, symSize: 0x0 }
-  - { offset: 0x1F6E, size: 0x8, addend: 0x0, symName: ___fixunsdfti.IMPLICIT_BIT, symObjAddr: 0x9FE0, symBinAddr: 0x100067E90, symSize: 0x0 }
-  - { offset: 0x1F89, size: 0x8, addend: 0x0, symName: ___fixunsdfti.SIGNIFICANT_MASK, symObjAddr: 0x9FE8, symBinAddr: 0x100067E98, symSize: 0x0 }
-  - { offset: 0x1FA4, size: 0x8, addend: 0x0, symName: ___fixunsdfti.EXPONENT_MASK, symObjAddr: 0x9FF0, symBinAddr: 0x100067EA0, symSize: 0x0 }
-  - { offset: 0x1FBF, size: 0x8, addend: 0x0, symName: ___fixunsdfti.QUIET_BIT, symObjAddr: 0x9FF8, symBinAddr: 0x100067EA8, symSize: 0x0 }
-  - { offset: 0x1FDA, size: 0x8, addend: 0x0, symName: ___fixunsdfti.QNAN_REP, symObjAddr: 0xA000, symBinAddr: 0x100067EB0, symSize: 0x0 }
-  - { offset: 0x1FF5, size: 0x8, addend: 0x0, symName: ___fixunsdfti.INF_REP, symObjAddr: 0xA008, symBinAddr: 0x100067EB8, symSize: 0x0 }
-  - { offset: 0x200F, size: 0x8, addend: 0x0, symName: ___fixunssfti.EXPONENT_BITS, symObjAddr: 0xA020, symBinAddr: 0x100067ED0, symSize: 0x0 }
-  - { offset: 0x2029, size: 0x8, addend: 0x0, symName: ___fixunssfti.SIGNIFICANT_BITS, symObjAddr: 0xA024, symBinAddr: 0x100067ED4, symSize: 0x0 }
-  - { offset: 0x2043, size: 0x8, addend: 0x0, symName: ___fixunssfti.MAX_EXPONENT, symObjAddr: 0xA028, symBinAddr: 0x100067ED8, symSize: 0x0 }
-  - { offset: 0x205D, size: 0x8, addend: 0x0, symName: ___fixunssfti.EXPONENT_BIAS, symObjAddr: 0xA02C, symBinAddr: 0x100067EDC, symSize: 0x0 }
-  - { offset: 0x2077, size: 0x8, addend: 0x0, symName: ___fixunssfti.ONE_REP, symObjAddr: 0xA030, symBinAddr: 0x100067EE0, symSize: 0x0 }
-  - { offset: 0x2091, size: 0x8, addend: 0x0, symName: ___fixunssfti.SIGN_BIT, symObjAddr: 0xA034, symBinAddr: 0x100067EE4, symSize: 0x0 }
-  - { offset: 0x20AB, size: 0x8, addend: 0x0, symName: ___fixunssfti.ABS_MASK, symObjAddr: 0xA038, symBinAddr: 0x100067EE8, symSize: 0x0 }
-  - { offset: 0x20C5, size: 0x8, addend: 0x0, symName: ___fixunssfti.IMPLICIT_BIT, symObjAddr: 0xA03C, symBinAddr: 0x100067EEC, symSize: 0x0 }
-  - { offset: 0x20DF, size: 0x8, addend: 0x0, symName: ___fixunssfti.SIGNIFICANT_MASK, symObjAddr: 0xA040, symBinAddr: 0x100067EF0, symSize: 0x0 }
-  - { offset: 0x20F9, size: 0x8, addend: 0x0, symName: ___fixunssfti.EXPONENT_MASK, symObjAddr: 0xA044, symBinAddr: 0x100067EF4, symSize: 0x0 }
-  - { offset: 0x2113, size: 0x8, addend: 0x0, symName: ___fixunssfti.QUIET_BIT, symObjAddr: 0xA048, symBinAddr: 0x100067EF8, symSize: 0x0 }
-  - { offset: 0x212D, size: 0x8, addend: 0x0, symName: ___fixunssfti.QNAN_REP, symObjAddr: 0xA04C, symBinAddr: 0x100067EFC, symSize: 0x0 }
-  - { offset: 0x2147, size: 0x8, addend: 0x0, symName: ___fixunssfti.INF_REP, symObjAddr: 0xA050, symBinAddr: 0x100067F00, symSize: 0x0 }
-  - { offset: 0x2161, size: 0x8, addend: 0x0, symName: ___fixdfti.EXPONENT_BITS, symObjAddr: 0xA064, symBinAddr: 0x100067F14, symSize: 0x0 }
-  - { offset: 0x217B, size: 0x8, addend: 0x0, symName: ___fixdfti.SIGNIFICANT_BITS, symObjAddr: 0xA068, symBinAddr: 0x100067F18, symSize: 0x0 }
-  - { offset: 0x2196, size: 0x8, addend: 0x0, symName: ___fixdfti.MAX_EXPONENT, symObjAddr: 0xA070, symBinAddr: 0x100067F20, symSize: 0x0 }
-  - { offset: 0x21B1, size: 0x8, addend: 0x0, symName: ___fixdfti.EXPONENT_BIAS, symObjAddr: 0xA078, symBinAddr: 0x100067F28, symSize: 0x0 }
-  - { offset: 0x21CC, size: 0x8, addend: 0x0, symName: ___fixdfti.ONE_REP, symObjAddr: 0xA080, symBinAddr: 0x100067F30, symSize: 0x0 }
-  - { offset: 0x21E7, size: 0x8, addend: 0x0, symName: ___fixdfti.SIGN_BIT, symObjAddr: 0xA088, symBinAddr: 0x100067F38, symSize: 0x0 }
-  - { offset: 0x2202, size: 0x8, addend: 0x0, symName: ___fixdfti.ABS_MASK, symObjAddr: 0xA090, symBinAddr: 0x100067F40, symSize: 0x0 }
-  - { offset: 0x221D, size: 0x8, addend: 0x0, symName: ___fixdfti.IMPLICIT_BIT, symObjAddr: 0xA098, symBinAddr: 0x100067F48, symSize: 0x0 }
-  - { offset: 0x2238, size: 0x8, addend: 0x0, symName: ___fixdfti.SIGNIFICANT_MASK, symObjAddr: 0xA0A0, symBinAddr: 0x100067F50, symSize: 0x0 }
-  - { offset: 0x2253, size: 0x8, addend: 0x0, symName: ___fixdfti.EXPONENT_MASK, symObjAddr: 0xA0A8, symBinAddr: 0x100067F58, symSize: 0x0 }
-  - { offset: 0x226E, size: 0x8, addend: 0x0, symName: ___fixdfti.QUIET_BIT, symObjAddr: 0xA0B0, symBinAddr: 0x100067F60, symSize: 0x0 }
-  - { offset: 0x2289, size: 0x8, addend: 0x0, symName: ___fixdfti.QNAN_REP, symObjAddr: 0xA0B8, symBinAddr: 0x100067F68, symSize: 0x0 }
-  - { offset: 0x22A4, size: 0x8, addend: 0x0, symName: ___fixdfti.INF_REP, symObjAddr: 0xA0C0, symBinAddr: 0x100067F70, symSize: 0x0 }
-  - { offset: 0x22BE, size: 0x8, addend: 0x0, symName: ___fixsfti.EXPONENT_BITS, symObjAddr: 0xA0D4, symBinAddr: 0x100067F84, symSize: 0x0 }
-  - { offset: 0x22D8, size: 0x8, addend: 0x0, symName: ___fixsfti.SIGNIFICANT_BITS, symObjAddr: 0xA0D8, symBinAddr: 0x100067F88, symSize: 0x0 }
-  - { offset: 0x22F2, size: 0x8, addend: 0x0, symName: ___fixsfti.MAX_EXPONENT, symObjAddr: 0xA0DC, symBinAddr: 0x100067F8C, symSize: 0x0 }
-  - { offset: 0x230C, size: 0x8, addend: 0x0, symName: ___fixsfti.EXPONENT_BIAS, symObjAddr: 0xA0E0, symBinAddr: 0x100067F90, symSize: 0x0 }
-  - { offset: 0x2326, size: 0x8, addend: 0x0, symName: ___fixsfti.ONE_REP, symObjAddr: 0xA0E4, symBinAddr: 0x100067F94, symSize: 0x0 }
-  - { offset: 0x2340, size: 0x8, addend: 0x0, symName: ___fixsfti.SIGN_BIT, symObjAddr: 0xA0E8, symBinAddr: 0x100067F98, symSize: 0x0 }
-  - { offset: 0x235A, size: 0x8, addend: 0x0, symName: ___fixsfti.ABS_MASK, symObjAddr: 0xA0EC, symBinAddr: 0x100067F9C, symSize: 0x0 }
-  - { offset: 0x2374, size: 0x8, addend: 0x0, symName: ___fixsfti.IMPLICIT_BIT, symObjAddr: 0xA0F0, symBinAddr: 0x100067FA0, symSize: 0x0 }
-  - { offset: 0x238E, size: 0x8, addend: 0x0, symName: ___fixsfti.SIGNIFICANT_MASK, symObjAddr: 0xA0F4, symBinAddr: 0x100067FA4, symSize: 0x0 }
-  - { offset: 0x23A8, size: 0x8, addend: 0x0, symName: ___fixsfti.EXPONENT_MASK, symObjAddr: 0xA0F8, symBinAddr: 0x100067FA8, symSize: 0x0 }
-  - { offset: 0x23C2, size: 0x8, addend: 0x0, symName: ___fixsfti.QUIET_BIT, symObjAddr: 0xA0FC, symBinAddr: 0x100067FAC, symSize: 0x0 }
-  - { offset: 0x23DC, size: 0x8, addend: 0x0, symName: ___fixsfti.QNAN_REP, symObjAddr: 0xA100, symBinAddr: 0x100067FB0, symSize: 0x0 }
-  - { offset: 0x23F6, size: 0x8, addend: 0x0, symName: ___fixsfti.INF_REP, symObjAddr: 0xA104, symBinAddr: 0x100067FB4, symSize: 0x0 }
+  - { offset: 0x1CAC, size: 0x8, addend: 0x0, symName: ___mulddi3.LOWER_MASK, symObjAddr: 0x9F18, symBinAddr: 0x10006A268, symSize: 0x0 }
+  - { offset: 0x1CCD, size: 0x8, addend: 0x0, symName: ___floattisf.MANT_DIG, symObjAddr: 0x9F20, symBinAddr: 0x10006A270, symSize: 0x0 }
+  - { offset: 0x1CEE, size: 0x8, addend: 0x0, symName: ___floattisf.EXP_BIAS, symObjAddr: 0x9F24, symBinAddr: 0x10006A274, symSize: 0x0 }
+  - { offset: 0x1D08, size: 0x8, addend: 0x0, symName: ___floattisf.SIGNIFICANT_BITS, symObjAddr: 0x9F28, symBinAddr: 0x10006A278, symSize: 0x0 }
+  - { offset: 0x1D22, size: 0x8, addend: 0x0, symName: ___floattisf.MANTISSA_MASK, symObjAddr: 0x9F2C, symBinAddr: 0x10006A27C, symSize: 0x0 }
+  - { offset: 0x1D43, size: 0x8, addend: 0x0, symName: ___floattisf.SIGN_BIT, symObjAddr: 0x9F30, symBinAddr: 0x10006A280, symSize: 0x0 }
+  - { offset: 0x1D5D, size: 0x8, addend: 0x0, symName: ___floattidf.MANT_DIG, symObjAddr: 0x9F40, symBinAddr: 0x10006A290, symSize: 0x0 }
+  - { offset: 0x1D77, size: 0x8, addend: 0x0, symName: ___floattidf.SIGNIFICANT_BITS, symObjAddr: 0x9F44, symBinAddr: 0x10006A294, symSize: 0x0 }
+  - { offset: 0x1D91, size: 0x8, addend: 0x0, symName: ___floattidf.EXP_BIAS, symObjAddr: 0x9F48, symBinAddr: 0x10006A298, symSize: 0x0 }
+  - { offset: 0x1DAC, size: 0x8, addend: 0x0, symName: ___floattidf.MANTISSA_MASK, symObjAddr: 0x9F50, symBinAddr: 0x10006A2A0, symSize: 0x0 }
+  - { offset: 0x1DC7, size: 0x8, addend: 0x0, symName: ___floattidf.SIGN_BIT, symObjAddr: 0x9F58, symBinAddr: 0x10006A2A8, symSize: 0x0 }
+  - { offset: 0x1DE1, size: 0x8, addend: 0x0, symName: ___floatuntisf.MANT_DIG, symObjAddr: 0x9F6C, symBinAddr: 0x10006A2BC, symSize: 0x0 }
+  - { offset: 0x1DFB, size: 0x8, addend: 0x0, symName: ___floatuntisf.EXP_BIAS, symObjAddr: 0x9F70, symBinAddr: 0x10006A2C0, symSize: 0x0 }
+  - { offset: 0x1E15, size: 0x8, addend: 0x0, symName: ___floatuntisf.SIGNIFICANT_BITS, symObjAddr: 0x9F74, symBinAddr: 0x10006A2C4, symSize: 0x0 }
+  - { offset: 0x1E2F, size: 0x8, addend: 0x0, symName: ___floatuntisf.MANTISSA_MASK, symObjAddr: 0x9F78, symBinAddr: 0x10006A2C8, symSize: 0x0 }
+  - { offset: 0x1E49, size: 0x8, addend: 0x0, symName: ___floatuntidf.MANT_DIG, symObjAddr: 0x9F8C, symBinAddr: 0x10006A2DC, symSize: 0x0 }
+  - { offset: 0x1E63, size: 0x8, addend: 0x0, symName: ___floatuntidf.SIGNIFICANT_BITS, symObjAddr: 0x9F90, symBinAddr: 0x10006A2E0, symSize: 0x0 }
+  - { offset: 0x1E7D, size: 0x8, addend: 0x0, symName: ___floatuntidf.EXP_BIAS, symObjAddr: 0x9F94, symBinAddr: 0x10006A2E4, symSize: 0x0 }
+  - { offset: 0x1E98, size: 0x8, addend: 0x0, symName: ___floatuntidf.MANTISSA_MASK, symObjAddr: 0x9F98, symBinAddr: 0x10006A2E8, symSize: 0x0 }
+  - { offset: 0x1EB2, size: 0x8, addend: 0x0, symName: ___fixunsdfti.EXPONENT_BITS, symObjAddr: 0x9FB0, symBinAddr: 0x10006A300, symSize: 0x0 }
+  - { offset: 0x1ECC, size: 0x8, addend: 0x0, symName: ___fixunsdfti.SIGNIFICANT_BITS, symObjAddr: 0x9FB4, symBinAddr: 0x10006A304, symSize: 0x0 }
+  - { offset: 0x1EE7, size: 0x8, addend: 0x0, symName: ___fixunsdfti.MAX_EXPONENT, symObjAddr: 0x9FB8, symBinAddr: 0x10006A308, symSize: 0x0 }
+  - { offset: 0x1F02, size: 0x8, addend: 0x0, symName: ___fixunsdfti.EXPONENT_BIAS, symObjAddr: 0x9FC0, symBinAddr: 0x10006A310, symSize: 0x0 }
+  - { offset: 0x1F1D, size: 0x8, addend: 0x0, symName: ___fixunsdfti.ONE_REP, symObjAddr: 0x9FC8, symBinAddr: 0x10006A318, symSize: 0x0 }
+  - { offset: 0x1F38, size: 0x8, addend: 0x0, symName: ___fixunsdfti.SIGN_BIT, symObjAddr: 0x9FD0, symBinAddr: 0x10006A320, symSize: 0x0 }
+  - { offset: 0x1F53, size: 0x8, addend: 0x0, symName: ___fixunsdfti.ABS_MASK, symObjAddr: 0x9FD8, symBinAddr: 0x10006A328, symSize: 0x0 }
+  - { offset: 0x1F6E, size: 0x8, addend: 0x0, symName: ___fixunsdfti.IMPLICIT_BIT, symObjAddr: 0x9FE0, symBinAddr: 0x10006A330, symSize: 0x0 }
+  - { offset: 0x1F89, size: 0x8, addend: 0x0, symName: ___fixunsdfti.SIGNIFICANT_MASK, symObjAddr: 0x9FE8, symBinAddr: 0x10006A338, symSize: 0x0 }
+  - { offset: 0x1FA4, size: 0x8, addend: 0x0, symName: ___fixunsdfti.EXPONENT_MASK, symObjAddr: 0x9FF0, symBinAddr: 0x10006A340, symSize: 0x0 }
+  - { offset: 0x1FBF, size: 0x8, addend: 0x0, symName: ___fixunsdfti.QUIET_BIT, symObjAddr: 0x9FF8, symBinAddr: 0x10006A348, symSize: 0x0 }
+  - { offset: 0x1FDA, size: 0x8, addend: 0x0, symName: ___fixunsdfti.QNAN_REP, symObjAddr: 0xA000, symBinAddr: 0x10006A350, symSize: 0x0 }
+  - { offset: 0x1FF5, size: 0x8, addend: 0x0, symName: ___fixunsdfti.INF_REP, symObjAddr: 0xA008, symBinAddr: 0x10006A358, symSize: 0x0 }
+  - { offset: 0x200F, size: 0x8, addend: 0x0, symName: ___fixunssfti.EXPONENT_BITS, symObjAddr: 0xA020, symBinAddr: 0x10006A370, symSize: 0x0 }
+  - { offset: 0x2029, size: 0x8, addend: 0x0, symName: ___fixunssfti.SIGNIFICANT_BITS, symObjAddr: 0xA024, symBinAddr: 0x10006A374, symSize: 0x0 }
+  - { offset: 0x2043, size: 0x8, addend: 0x0, symName: ___fixunssfti.MAX_EXPONENT, symObjAddr: 0xA028, symBinAddr: 0x10006A378, symSize: 0x0 }
+  - { offset: 0x205D, size: 0x8, addend: 0x0, symName: ___fixunssfti.EXPONENT_BIAS, symObjAddr: 0xA02C, symBinAddr: 0x10006A37C, symSize: 0x0 }
+  - { offset: 0x2077, size: 0x8, addend: 0x0, symName: ___fixunssfti.ONE_REP, symObjAddr: 0xA030, symBinAddr: 0x10006A380, symSize: 0x0 }
+  - { offset: 0x2091, size: 0x8, addend: 0x0, symName: ___fixunssfti.SIGN_BIT, symObjAddr: 0xA034, symBinAddr: 0x10006A384, symSize: 0x0 }
+  - { offset: 0x20AB, size: 0x8, addend: 0x0, symName: ___fixunssfti.ABS_MASK, symObjAddr: 0xA038, symBinAddr: 0x10006A388, symSize: 0x0 }
+  - { offset: 0x20C5, size: 0x8, addend: 0x0, symName: ___fixunssfti.IMPLICIT_BIT, symObjAddr: 0xA03C, symBinAddr: 0x10006A38C, symSize: 0x0 }
+  - { offset: 0x20DF, size: 0x8, addend: 0x0, symName: ___fixunssfti.SIGNIFICANT_MASK, symObjAddr: 0xA040, symBinAddr: 0x10006A390, symSize: 0x0 }
+  - { offset: 0x20F9, size: 0x8, addend: 0x0, symName: ___fixunssfti.EXPONENT_MASK, symObjAddr: 0xA044, symBinAddr: 0x10006A394, symSize: 0x0 }
+  - { offset: 0x2113, size: 0x8, addend: 0x0, symName: ___fixunssfti.QUIET_BIT, symObjAddr: 0xA048, symBinAddr: 0x10006A398, symSize: 0x0 }
+  - { offset: 0x212D, size: 0x8, addend: 0x0, symName: ___fixunssfti.QNAN_REP, symObjAddr: 0xA04C, symBinAddr: 0x10006A39C, symSize: 0x0 }
+  - { offset: 0x2147, size: 0x8, addend: 0x0, symName: ___fixunssfti.INF_REP, symObjAddr: 0xA050, symBinAddr: 0x10006A3A0, symSize: 0x0 }
+  - { offset: 0x2161, size: 0x8, addend: 0x0, symName: ___fixdfti.EXPONENT_BITS, symObjAddr: 0xA064, symBinAddr: 0x10006A3B4, symSize: 0x0 }
+  - { offset: 0x217B, size: 0x8, addend: 0x0, symName: ___fixdfti.SIGNIFICANT_BITS, symObjAddr: 0xA068, symBinAddr: 0x10006A3B8, symSize: 0x0 }
+  - { offset: 0x2196, size: 0x8, addend: 0x0, symName: ___fixdfti.MAX_EXPONENT, symObjAddr: 0xA070, symBinAddr: 0x10006A3C0, symSize: 0x0 }
+  - { offset: 0x21B1, size: 0x8, addend: 0x0, symName: ___fixdfti.EXPONENT_BIAS, symObjAddr: 0xA078, symBinAddr: 0x10006A3C8, symSize: 0x0 }
+  - { offset: 0x21CC, size: 0x8, addend: 0x0, symName: ___fixdfti.ONE_REP, symObjAddr: 0xA080, symBinAddr: 0x10006A3D0, symSize: 0x0 }
+  - { offset: 0x21E7, size: 0x8, addend: 0x0, symName: ___fixdfti.SIGN_BIT, symObjAddr: 0xA088, symBinAddr: 0x10006A3D8, symSize: 0x0 }
+  - { offset: 0x2202, size: 0x8, addend: 0x0, symName: ___fixdfti.ABS_MASK, symObjAddr: 0xA090, symBinAddr: 0x10006A3E0, symSize: 0x0 }
+  - { offset: 0x221D, size: 0x8, addend: 0x0, symName: ___fixdfti.IMPLICIT_BIT, symObjAddr: 0xA098, symBinAddr: 0x10006A3E8, symSize: 0x0 }
+  - { offset: 0x2238, size: 0x8, addend: 0x0, symName: ___fixdfti.SIGNIFICANT_MASK, symObjAddr: 0xA0A0, symBinAddr: 0x10006A3F0, symSize: 0x0 }
+  - { offset: 0x2253, size: 0x8, addend: 0x0, symName: ___fixdfti.EXPONENT_MASK, symObjAddr: 0xA0A8, symBinAddr: 0x10006A3F8, symSize: 0x0 }
+  - { offset: 0x226E, size: 0x8, addend: 0x0, symName: ___fixdfti.QUIET_BIT, symObjAddr: 0xA0B0, symBinAddr: 0x10006A400, symSize: 0x0 }
+  - { offset: 0x2289, size: 0x8, addend: 0x0, symName: ___fixdfti.QNAN_REP, symObjAddr: 0xA0B8, symBinAddr: 0x10006A408, symSize: 0x0 }
+  - { offset: 0x22A4, size: 0x8, addend: 0x0, symName: ___fixdfti.INF_REP, symObjAddr: 0xA0C0, symBinAddr: 0x10006A410, symSize: 0x0 }
+  - { offset: 0x22BE, size: 0x8, addend: 0x0, symName: ___fixsfti.EXPONENT_BITS, symObjAddr: 0xA0D4, symBinAddr: 0x10006A424, symSize: 0x0 }
+  - { offset: 0x22D8, size: 0x8, addend: 0x0, symName: ___fixsfti.SIGNIFICANT_BITS, symObjAddr: 0xA0D8, symBinAddr: 0x10006A428, symSize: 0x0 }
+  - { offset: 0x22F2, size: 0x8, addend: 0x0, symName: ___fixsfti.MAX_EXPONENT, symObjAddr: 0xA0DC, symBinAddr: 0x10006A42C, symSize: 0x0 }
+  - { offset: 0x230C, size: 0x8, addend: 0x0, symName: ___fixsfti.EXPONENT_BIAS, symObjAddr: 0xA0E0, symBinAddr: 0x10006A430, symSize: 0x0 }
+  - { offset: 0x2326, size: 0x8, addend: 0x0, symName: ___fixsfti.ONE_REP, symObjAddr: 0xA0E4, symBinAddr: 0x10006A434, symSize: 0x0 }
+  - { offset: 0x2340, size: 0x8, addend: 0x0, symName: ___fixsfti.SIGN_BIT, symObjAddr: 0xA0E8, symBinAddr: 0x10006A438, symSize: 0x0 }
+  - { offset: 0x235A, size: 0x8, addend: 0x0, symName: ___fixsfti.ABS_MASK, symObjAddr: 0xA0EC, symBinAddr: 0x10006A43C, symSize: 0x0 }
+  - { offset: 0x2374, size: 0x8, addend: 0x0, symName: ___fixsfti.IMPLICIT_BIT, symObjAddr: 0xA0F0, symBinAddr: 0x10006A440, symSize: 0x0 }
+  - { offset: 0x238E, size: 0x8, addend: 0x0, symName: ___fixsfti.SIGNIFICANT_MASK, symObjAddr: 0xA0F4, symBinAddr: 0x10006A444, symSize: 0x0 }
+  - { offset: 0x23A8, size: 0x8, addend: 0x0, symName: ___fixsfti.EXPONENT_MASK, symObjAddr: 0xA0F8, symBinAddr: 0x10006A448, symSize: 0x0 }
+  - { offset: 0x23C2, size: 0x8, addend: 0x0, symName: ___fixsfti.QUIET_BIT, symObjAddr: 0xA0FC, symBinAddr: 0x10006A44C, symSize: 0x0 }
+  - { offset: 0x23DC, size: 0x8, addend: 0x0, symName: ___fixsfti.QNAN_REP, symObjAddr: 0xA100, symBinAddr: 0x10006A450, symSize: 0x0 }
+  - { offset: 0x23F6, size: 0x8, addend: 0x0, symName: ___fixsfti.INF_REP, symObjAddr: 0xA104, symBinAddr: 0x10006A454, symSize: 0x0 }
   - { offset: 0x243C, size: 0x8, addend: 0x0, symName: _roundeven, symObjAddr: 0x0, symBinAddr: 0x100012818, symSize: 0x49C }
   - { offset: 0x251C, size: 0x8, addend: 0x0, symName: _roundevenf, symObjAddr: 0x49C, symBinAddr: 0x100012CB4, symSize: 0x494 }
   - { offset: 0x25C1, size: 0x8, addend: 0x0, symName: ___powidf2, symObjAddr: 0x930, symBinAddr: 0x100013148, symSize: 0x140 }
@@ -144,9 +144,9 @@ relocations:
   - { offset: 0x33BC, size: 0x8, addend: 0x0, symName: _std.io.os.native_fputc, symObjAddr: 0x39C, symBinAddr: 0x10001D0F8, symSize: 0x58 }
   - { offset: 0x33F6, size: 0x8, addend: 0x0, symName: _std.io.os.native_fread, symObjAddr: 0x3F4, symBinAddr: 0x10001D150, symSize: 0x4C }
   - { offset: 0x34C9, size: 0x8, addend: 0x0, symName: _std.io.Formatter.adjust, symObjAddr: 0x0, symBinAddr: 0x10001D19C, symSize: 0x290 }
-  - { offset: 0x34E2, size: 0x8, addend: 0x0, symName: _std.io.XDIGITS_H, symObjAddr: 0x2B656, symBinAddr: 0x10006860A, symSize: 0x0 }
-  - { offset: 0x3516, size: 0x8, addend: 0x0, symName: _std.io.XDIGITS_L, symObjAddr: 0x2B666, symBinAddr: 0x10006861A, symSize: 0x0 }
-  - { offset: 0x352F, size: 0x8, addend: 0x0, symName: _floatformat.BUF_SIZE, symObjAddr: 0x2BF48, symBinAddr: 0x100068EFC, symSize: 0x0 }
+  - { offset: 0x34E2, size: 0x8, addend: 0x0, symName: _std.io.XDIGITS_H, symObjAddr: 0x2B656, symBinAddr: 0x10006AAAA, symSize: 0x0 }
+  - { offset: 0x3516, size: 0x8, addend: 0x0, symName: _std.io.XDIGITS_L, symObjAddr: 0x2B666, symBinAddr: 0x10006AABA, symSize: 0x0 }
+  - { offset: 0x352F, size: 0x8, addend: 0x0, symName: _floatformat.BUF_SIZE, symObjAddr: 0x2BF48, symBinAddr: 0x10006B39C, symSize: 0x0 }
   - { offset: 0x3551, size: 0x8, addend: 0x0, symName: _stdout.file, symObjAddr: 0x3F6E0, symBinAddr: 0x1000763D8, symSize: 0x0 }
   - { offset: 0x3598, size: 0x8, addend: 0x0, symName: _stderr.file, symObjAddr: 0x3F6E8, symBinAddr: 0x1000763E0, symSize: 0x0 }
   - { offset: 0x35B3, size: 0x8, addend: 0x0, symName: _stdin.file, symObjAddr: 0x3F6F0, symBinAddr: 0x1000763E8, symSize: 0x0 }
@@ -207,18 +207,18 @@ relocations:
   - { offset: 0x7DC5, size: 0x8, addend: 0x0, symName: ___c3_runtime_finalize, symObjAddr: 0x614, symBinAddr: 0x1000495A0, symSize: 0x174 }
   - { offset: 0x7DEE, size: 0x8, addend: 0x0, symName: _std.core.machoruntime.append_xxlizer, symObjAddr: 0x788, symBinAddr: 0x100049714, symSize: 0x360 }
   - { offset: 0x807F, size: 0x8, addend: 0x0, symName: _std.core.machoruntime.dl_reg_callback, symObjAddr: 0xAE8, symBinAddr: 0x100049A74, symSize: 0xBE0 }
-  - { offset: 0x8394, size: 0x8, addend: 0x0, symName: _std.core.ascii.ASCII_LOOKUP, symObjAddr: 0x60, symBinAddr: 0x100069BF0, symSize: 0x0 }
+  - { offset: 0x8394, size: 0x8, addend: 0x0, symName: _std.core.ascii.ASCII_LOOKUP, symObjAddr: 0x60, symBinAddr: 0x10006C090, symSize: 0x0 }
   - { offset: 0x83DB, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.LazyTempAllocator.acquire, symObjAddr: 0x0, symBinAddr: 0x10004A698, symSize: 0x3B0 }
   - { offset: 0x83F6, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.thread_allocator, symObjAddr: 0x9EE8, symBinAddr: 0x100075278, symSize: 0x0 }
   - { offset: 0x8440, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.temp_base_allocator, symObjAddr: 0x9400, symBinAddr: 0x100074F58, symSize: 0x0 }
-  - { offset: 0x845B, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.LAZY_TEMP, symObjAddr: 0x9498, symBinAddr: 0x100069E00, symSize: 0x0 }
+  - { offset: 0x845B, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.LAZY_TEMP, symObjAddr: 0x9498, symBinAddr: 0x10006C2A0, symSize: 0x0 }
   - { offset: 0x8489, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.current_temp, symObjAddr: 0x9F00, symBinAddr: 0x100075290, symSize: 0x0 }
   - { offset: 0x84A5, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.top_temp, symObjAddr: 0x9F18, symBinAddr: 0x1000752A8, symSize: 0x0 }
   - { offset: 0x85E9, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.auto_create_temp, symObjAddr: 0x9F30, symBinAddr: 0x1000752C0, symSize: 0x0 }
   - { offset: 0x8605, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.temp_allocator_min_size, symObjAddr: 0x9410, symBinAddr: 0x100074F68, symSize: 0x0 }
   - { offset: 0x8620, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.temp_allocator_reserve_size, symObjAddr: 0x9418, symBinAddr: 0x100074F70, symSize: 0x0 }
   - { offset: 0x863B, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.temp_allocator_realloc_size, symObjAddr: 0x9420, symBinAddr: 0x100074F78, symSize: 0x0 }
-  - { offset: 0x8655, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.LIBC_ALLOCATOR, symObjAddr: 0x9CB0, symBinAddr: 0x10006A608, symSize: 0x0 }
+  - { offset: 0x8655, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.LIBC_ALLOCATOR, symObjAddr: 0x9CB0, symBinAddr: 0x10006CAA8, symSize: 0x0 }
   - { offset: 0x869B, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.LazyTempAllocator.acquire, symObjAddr: 0x0, symBinAddr: 0x10004A698, symSize: 0x3B0 }
   - { offset: 0x870F, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.LazyTempAllocator.resize, symObjAddr: 0x3B0, symBinAddr: 0x10004AA48, symSize: 0x1C8 }
   - { offset: 0x876C, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.LazyTempAllocator.release, symObjAddr: 0x578, symBinAddr: 0x10004AC10, symSize: 0xAC }
@@ -228,16 +228,16 @@ relocations:
   - { offset: 0x8854, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.create_temp_allocator_on_demand, symObjAddr: 0x97C, symBinAddr: 0x10004B014, symSize: 0x254 }
   - { offset: 0x8888, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.create_temp_allocator, symObjAddr: 0xBD0, symBinAddr: 0x10004B268, symSize: 0x440 }
   - { offset: 0x88F5, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.destroy_temp_allocators, symObjAddr: 0x1010, symBinAddr: 0x10004B6A8, symSize: 0x118 }
-  - { offset: 0x890F, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.allow_implicit_temp_allocator_on_load_thread.5829, symObjAddr: 0x1128, symBinAddr: 0x10004B7C0, symSize: 0x28 }
-  - { offset: 0x8929, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.destroy_temp_allocators_after_exit.5830, symObjAddr: 0x1150, symBinAddr: 0x10004B7E8, symSize: 0x14 }
+  - { offset: 0x890F, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.allow_implicit_temp_allocator_on_load_thread.5836, symObjAddr: 0x1128, symBinAddr: 0x10004B7C0, symSize: 0x28 }
+  - { offset: 0x8929, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.destroy_temp_allocators_after_exit.5837, symObjAddr: 0x1150, symBinAddr: 0x10004B7E8, symSize: 0x14 }
   - { offset: 0x8943, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.OnStackAllocator.init, symObjAddr: 0x1164, symBinAddr: 0x10004B7FC, symSize: 0xE4 }
   - { offset: 0x89AB, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.OnStackAllocator.free, symObjAddr: 0x1248, symBinAddr: 0x10004B8E0, symSize: 0x584 }
   - { offset: 0x8A1E, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.OnStackAllocator.release, symObjAddr: 0x17CC, symBinAddr: 0x10004BE64, symSize: 0x2C8 }
   - { offset: 0x8A8C, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.OnStackAllocator.resize, symObjAddr: 0x1A94, symBinAddr: 0x10004C12C, symSize: 0xA14 }
   - { offset: 0x8BDC, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.OnStackAllocator.acquire, symObjAddr: 0x24A8, symBinAddr: 0x10004CB40, symSize: 0xD98 }
-  - { offset: 0x8D60, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.allocation_in_stack_mem.6760, symObjAddr: 0x3240, symBinAddr: 0x10004D8D8, symSize: 0x238 }
-  - { offset: 0x8DB4, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.on_stack_allocator_remove_chunk.6763, symObjAddr: 0x3478, symBinAddr: 0x10004DB10, symSize: 0x564 }
-  - { offset: 0x8E34, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.on_stack_allocator_find_chunk.6768, symObjAddr: 0x39DC, symBinAddr: 0x10004E074, symSize: 0x78 }
+  - { offset: 0x8D60, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.allocation_in_stack_mem.6767, symObjAddr: 0x3240, symBinAddr: 0x10004D8D8, symSize: 0x238 }
+  - { offset: 0x8DB4, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.on_stack_allocator_remove_chunk.6770, symObjAddr: 0x3478, symBinAddr: 0x10004DB10, symSize: 0x564 }
+  - { offset: 0x8E34, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.on_stack_allocator_find_chunk.6775, symObjAddr: 0x39DC, symBinAddr: 0x10004E074, symSize: 0x78 }
   - { offset: 0x8E8A, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.LibcAllocator.acquire, symObjAddr: 0x3A54, symBinAddr: 0x10004E0EC, symSize: 0x21C }
   - { offset: 0x8F3F, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.LibcAllocator.resize, symObjAddr: 0x3C70, symBinAddr: 0x10004E308, symSize: 0x3DC }
   - { offset: 0x8FDD, size: 0x8, addend: 0x0, symName: _std.core.mem.allocator.LibcAllocator.release, symObjAddr: 0x404C, symBinAddr: 0x10004E6E4, symSize: 0xB4 }
@@ -275,15 +275,15 @@ relocations:
   - { offset: 0xA861, size: 0x8, addend: 0x0, symName: _std.core.mem.ptr_is_aligned, symObjAddr: 0xE8, symBinAddr: 0x1000589EC, symSize: 0xE0 }
   - { offset: 0xA8BF, size: 0x8, addend: 0x0, symName: _std.core.mem.free, symObjAddr: 0x1C8, symBinAddr: 0x100058ACC, symSize: 0x1B4 }
   - { offset: 0xA93C, size: 0x8, addend: 0x0, symName: _std.core.builtin.panicf, symObjAddr: 0x0, symBinAddr: 0x100058C80, symSize: 0x7C8 }
-  - { offset: 0xA955, size: 0x8, addend: 0x0, symName: _std.core.builtin.in_panic.4163, symObjAddr: 0x3D55, symBinAddr: 0x100076408, symSize: 0x0 }
+  - { offset: 0xA955, size: 0x8, addend: 0x0, symName: _std.core.builtin.in_panic.4170, symObjAddr: 0x3D55, symBinAddr: 0x100076408, symSize: 0x0 }
   - { offset: 0xA976, size: 0x8, addend: 0x0, symName: _std.core.builtin.panic, symObjAddr: 0x1928, symBinAddr: 0x100074FB0, symSize: 0x0 }
   - { offset: 0xAB33, size: 0x8, addend: 0x0, symName: _std.core.builtin.panicf, symObjAddr: 0x0, symBinAddr: 0x100058C80, symSize: 0x7C8 }
   - { offset: 0xAD1A, size: 0x8, addend: 0x0, symName: _std.core.builtin.print_backtrace, symObjAddr: 0x7C8, symBinAddr: 0x100059448, symSize: 0xA2C }
   - { offset: 0xAEF4, size: 0x8, addend: 0x0, symName: _std.core.builtin.default_panic, symObjAddr: 0x11F4, symBinAddr: 0x100059E74, symSize: 0x110 }
   - { offset: 0xAF7C, size: 0x8, addend: 0x0, symName: _std.core.builtin.sig_bus_error, symObjAddr: 0x1304, symBinAddr: 0x100059F84, symSize: 0x2C0 }
   - { offset: 0xB021, size: 0x8, addend: 0x0, symName: _std.core.builtin.sig_segmentation_fault, symObjAddr: 0x15C4, symBinAddr: 0x10005A244, symSize: 0x2C0 }
-  - { offset: 0xB094, size: 0x8, addend: 0x0, symName: _std.core.builtin.install_signal_handler.4368, symObjAddr: 0x1884, symBinAddr: 0x10005A504, symSize: 0x50 }
-  - { offset: 0xB0DD, size: 0x8, addend: 0x0, symName: _std.core.builtin.install_signal_handlers.4372, symObjAddr: 0x18D4, symBinAddr: 0x10005A554, symSize: 0x34 }
+  - { offset: 0xB094, size: 0x8, addend: 0x0, symName: _std.core.builtin.install_signal_handler.4375, symObjAddr: 0x1884, symBinAddr: 0x10005A504, symSize: 0x50 }
+  - { offset: 0xB0DD, size: 0x8, addend: 0x0, symName: _std.core.builtin.install_signal_handlers.4379, symObjAddr: 0x18D4, symBinAddr: 0x10005A554, symSize: 0x34 }
   - { offset: 0xB2AB, size: 0x8, addend: 0x0, symName: _std.core.String.split, symObjAddr: 0x0, symBinAddr: 0x10005A5A4, symSize: 0x15EC }
   - { offset: 0xB329, size: 0x8, addend: 0x0, symName: _std.core.String.split, symObjAddr: 0x0, symBinAddr: 0x10005A5A4, symSize: 0x15EC }
   - { offset: 0xB4B0, size: 0x8, addend: 0x0, symName: _std.core.String.index_of, symObjAddr: 0x15EC, symBinAddr: 0x10005BB90, symSize: 0x998 }
@@ -311,6 +311,7 @@ relocations:
   - { offset: 0xD0EC, size: 0x8, addend: 0x0, symName: _myc3project.getNextValidFreeRow, symObjAddr: 0x1BB4, symBinAddr: 0x1000640BC, symSize: 0x3D0 }
   - { offset: 0xD1CD, size: 0x8, addend: 0x0, symName: _myc3project.printFeedbackTargetPosition, symObjAddr: 0x1F84, symBinAddr: 0x10006448C, symSize: 0x4E4 }
   - { offset: 0xD341, size: 0x8, addend: 0x0, symName: _myc3project.getFeedbackNextPlayer, symObjAddr: 0x2468, symBinAddr: 0x100064970, symSize: 0x2C4 }
-  - { offset: 0xD43E, size: 0x8, addend: 0x0, symName: _myc3project.main, symObjAddr: 0x272C, symBinAddr: 0x100064C34, symSize: 0xCD8 }
-  - { offset: 0xD688, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x3404, symBinAddr: 0x10006590C, symSize: 0x9F8 }
+  - { offset: 0xD4CE, size: 0x8, addend: 0x0, symName: _myc3project.gewinntDiagonal, symObjAddr: 0x272C, symBinAddr: 0x100064C34, symSize: 0x2130 }
+  - { offset: 0xD76B, size: 0x8, addend: 0x0, symName: _myc3project.main, symObjAddr: 0x485C, symBinAddr: 0x100066D64, symSize: 0x104C }
+  - { offset: 0xDA59, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x58A8, symBinAddr: 0x100067DB0, symSize: 0x9F8 }
 ...

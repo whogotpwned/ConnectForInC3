@@ -106,6 +106,44 @@ fn int getFeedbackNextPlayer(int round)
 	return nextPlayer;
 }
 
+fn bool gewinntDiagonal(int[7][6] matrix, int zeile, int spalte, int player)
+{
+
+	for (int i = 0; i < 7; i++)
+	{
+		for (int j = 0; j < 6; j++)
+		{
+
+			// pruefe ob diese indizes ueberhaupt noch im matrix-bereich liegen
+			if (i + 3 >= 7 || j + 3 >= 6)
+			{
+				continue;
+			}
+
+			// printe darueber welche werte verglichen werden
+			io::print("Vergleiche: ");
+			io::print(matrix[j][i]);
+			io::print(" mit ");
+			io::print(matrix[j+1][i+1]);
+			io::print(", ");
+			io::print(matrix[j+2][i+2]);
+			io::print(", ");
+			io::print(matrix[j+3][i+3]);
+			io::print("\n");
+
+		
+
+			if (matrix[j][i] == player && matrix[j+1][i+1] == player && matrix[j+2][i+2] == player && matrix[j+3][i+3] == player)
+			{
+				return true;
+			}
+		}
+	}
+
+
+	return false;
+}
+
 
 
 fn int main(String[] args)
@@ -134,6 +172,8 @@ fn int main(String[] args)
 
 	while (hasFreeSpace(matrix))
 	{
+
+
 		
 		int nextPlayer = getFeedbackNextPlayer(round);
 
@@ -149,10 +189,22 @@ fn int main(String[] args)
 		int spalte = naechsterWert!! - 1;
 		int zeile = getNextValidFreeRow(matrix, spalte);
 
+		if (zeile == -1)
+		{
+			io::print("Die gewählte Spalte ist voll. Bitte wählen Sie eine andere Spalte.\n");
+			continue;
+		}
 
 		printFeedbackTargetPosition(zeile, spalte);
 		
 		matrix[zeile][spalte] = nextPlayer;
+		if (gewinntDiagonal(matrix, zeile, spalte, nextPlayer))
+		{
+			io::print("Spieler ");
+			io::print(nextPlayer);
+			io::print(" gewinnt!\n");
+			break;
+		}
 
 		io::print("\n");
 		for (int i = 0; i < 6; i++)
